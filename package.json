@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "mongoose": "^7.0.1",
+    "morgan": "^1.10.0"
+  },
+  "name": "18-challenge-no-sql",
+  "description": "Social Media App",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephTidwell/18-challenge-no-sql.git"
+  },
+  "author": "Steph Tidwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephTidwell/18-challenge-no-sql/issues"
+  },
+  "homepage": "https://github.com/StephTidwell/18-challenge-no-sql#readme"
+}
