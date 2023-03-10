@@ -43,7 +43,7 @@ router.delete("/:id", async (req, res) => {
     res.status(500).json(err);
   }
 });
-//like / dislike a post
+//like a post
 
 router.put("/:id/like", async (req, res) => {
   try {
@@ -72,7 +72,7 @@ router.get("/:id", async (req, res) => {
 
 //get timeline posts
 
-router.get("/timeline/all", async (req, res) => {
+router.get("/timeline/posts", async (req, res) => {
   try {
     const currentUser = await User.findById(req.body.userId);
     const userPosts = await Post.find({ userId: currentUser._id });

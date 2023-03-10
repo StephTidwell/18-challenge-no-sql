@@ -33,7 +33,7 @@ app.use("/api/auth", authRoute);
 app.use("/api/posts", postRoute);
 
 app.get("/", (req, res) => {
-  res.send("Welcome to Homepage");
+  res.send("Welcome to Friendbook");
 });
 
 app.listen(8801, () => {
