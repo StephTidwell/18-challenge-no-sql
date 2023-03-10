@@ -18,7 +18,6 @@ There are API routes for:
 ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [Technologies](#Technologies)
 * [Preview](#Preview)
 
 ## Installation
